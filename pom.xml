@@ -13,7 +13,7 @@
     <parent>
         <groupId>io.spring.platform</groupId>
         <artifactId>platform-bom</artifactId>
-        <version>2.0.3.RELEASE</version>
+        <version>Athens-RELEASE</version>
         <relativePath />
     </parent>
 
@@ -65,7 +65,12 @@
                     <skip>true</skip>
                 </configuration>
             </plugin>
+            
+            <plugin>
+                <groupId>com.oracle.weblogic</groupId>
+                <artifactId>weblogic-maven-plugin</artifactId>
+                <version>12.2.1</version>
+            </plugin>
         </plugins>
     </build>
-
 </project>
