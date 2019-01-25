@@ -20,4 +20,3 @@ public class Application extends SpringBootServletInitializer implements WebAppl
 		return application.sources(Application.class);
 	}
 }
-
